@@ -22,6 +22,8 @@ Live Dash graphs of TA indicators on cryptocurrencies.
     * Each indicator is computed and updated within it's own individual process. Each process is run in parallel.
     * Indicators are updated until the latest OCHLV timestamp, which is queried every few seconds.
 
+![alt text](img/example_bb.png?raw=true "Bollinger Bands plot example")
+
 ## Getting Started
 ```
 pip install -r requirements.txt
