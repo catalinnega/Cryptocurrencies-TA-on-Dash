@@ -1,4 +1,6 @@
-# Live Dash graphs of TA indicators on cryptocurrencies.
+# Cryptocurrencies-TA-on-Dash 
+Live Dash graphs of TA indicators on cryptocurrencies.
+
 Indicators :
     Bollinger Bands
     Ichimoku Cloud
