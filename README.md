@@ -30,12 +30,12 @@ pip install -r requirements.txt
 ```
 
 ## Deployment
-Use update_db.py to create/update indicator databases
+Use update_db.py to create and/or update indicator databases:
 ```
 python3 update_db.py
 ```
 
-Use main_dash.py to run the dashboard on local server
+Use main_dash.py to run the dashboard on local server:
 ```
 python3 main_dash.py
 ```
