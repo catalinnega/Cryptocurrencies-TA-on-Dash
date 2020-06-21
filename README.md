@@ -42,6 +42,7 @@ python3 main_dash.py
 
 * [Dash](https://plotly.com/dash/) - Dashboard framework
 * [SQLite](https://www.sqlite.org/) - SQL database engine
+* [Bitfinex API](https://github.com/scottjbarr/bitfinex) - API used to retrieve cryptocurrency OCHLV data
 
 
 ## License
