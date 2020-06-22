@@ -31,4 +31,9 @@ global_settings = {
                 },
         'ATR' : {'period_size' : 14},
         'ADX' : {'period_size' : 14},
+        'VAR_LB' : {
+                        'apriori_wlen' : 96,
+                        'aposteriori_wlen' : 15,
+                        'var_ratio' : 0.5
+                   }
       }

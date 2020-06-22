@@ -11,6 +11,7 @@ import dash_app.cmf as cmf
 import dash_app.nlms as nlms
 import dash_app.snr as snr
 import dash_app.adx as adx
+import dash_app.var_lb as var_lb
 
 from indicators.adx.adx_settings import settings as adx_settings
 from indicators.atr.atr_settings import settings as atr_settings
@@ -25,6 +26,7 @@ from indicators.nlms.nlms_settings import settings as nlms_settings
 from indicators.rsi.rsi_settings import settings as rsi_settings
 from indicators.sma.sma_settings import settings as sma_settings
 from indicators.snr.snr_settings import settings as snr_settings
+from indicators.var_lb.var_lb_settings import settings as var_lb_settings
 
 
 from indicators.adx.adx_obj import ADX
@@ -40,6 +42,7 @@ from indicators.nlms.nlms_obj import NLMS
 from indicators.rsi.rsi_obj import RSI
 from indicators.sma.sma_obj import SMA
 from indicators.snr.snr_obj import SNR
+from indicators.var_lb.var_lb_obj import VAR_LB
 
 import os
 root_path = os.getcwd()
@@ -57,5 +60,6 @@ indicators_list = [
     {'name':"Chaikin Money Flow",                       "id":"CMF", "dash_lib":cmf, "settings":cmf_settings, "obj":CMF, "proc":[]},
     {'name':"Normalized Least Mean Squares",            "id":"NLMS", "dash_lib":nlms, "settings":nlms_settings, "obj":NLMS, "proc":[]},
     {'name':"Noise/Signal Estimator",                   "id":"SNR", "dash_lib":snr, "settings":snr_settings, "obj":SNR, "proc":[]},
-    {'name':"Average Directional Index",                "id":"ADX", "dash_lib":adx, "settings":adx_settings, "obj":ADX, "proc":[]}
+    {'name':"Average Directional Index",                "id":"ADX", "dash_lib":adx, "settings":adx_settings, "obj":ADX, "proc":[]},
+    {'name':"Aposteriori Variance Labels",              "id":"VAR_LB", "dash_lib":var_lb, "settings":var_lb_settings, "obj":VAR_LB, "proc":[]}
 ]
