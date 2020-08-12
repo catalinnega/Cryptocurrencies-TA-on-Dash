@@ -22,8 +22,10 @@ Live Dash graphs of TA indicators on cryptocurrencies.
     * OCHLV candles and the derived indicators are stored in separate sqlite DBs.
     * Each indicator is computed and updated within it's own individual process. Each process is run in parallel.
     * Indicators are updated until the latest OCHLV timestamp, which is queried every few seconds.
+    
 * Indicator example image:
-![alt text](img/example_bb.png?raw=true "Bollinger Bands plot example")
+<img align="below" width="1000" height="700" src="img/example_bb.png">
+
 
 * Predictor labels algorithm flowchart:
 ![alt text](img/predictor_labels_flowchart.png?raw=true "Predictor labels algorithm flowchart")
