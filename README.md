@@ -15,6 +15,7 @@ Live Dash graphs of TA indicators on cryptocurrencies.
     * Normalized Least Mean Squares
     * Noise/Signal Estimator
     * Average Directional Index
+    * Predictor labels*
 
 * Functionalities:
     * Retrieves OCHLV historical data using Bitfnex RESTv2 API.
@@ -23,6 +24,10 @@ Live Dash graphs of TA indicators on cryptocurrencies.
     * Indicators are updated until the latest OCHLV timestamp, which is queried every few seconds.
 
 ![alt text](img/example_bb.png?raw=true "Bollinger Bands plot example")
+
+*Predictor labels algorithm flowchart:
+![alt text](img/predictor_labels_flowchart.png?raw=true "Predictor labels algorithm flowchart")
+
 
 ## Getting Started
 ```
