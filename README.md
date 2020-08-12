@@ -27,7 +27,10 @@ Live Dash graphs of TA indicators on cryptocurrencies.
 <img align="below" width="1000" height="700" src="img/example_bb.png">
 
 
-* Predictor labels algorithm flowchart:
+* *Predictor labels indicator description:
+  The role of the labels shall be to aid in the time series prediction of future price changes by a supervised learning algorithm.
+  Each label will indicate if the mean price change of future samples will exceed a certain threshold. The threshold is determined by the standard deviation of the  apriori relative price changes. 
+  The algorithm is applied iteratively according to the flowchart below:
 ![alt text](img/predictor_labels_flowchart.png?raw=true "Predictor labels algorithm flowchart")
 
 
