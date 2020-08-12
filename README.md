@@ -15,6 +15,7 @@ Live Dash graphs of TA indicators on cryptocurrencies.
     * Normalized Least Mean Squares
     * Noise/Signal Estimator
     * Average Directional Index
+    * Predictor labels*
 
 * Functionalities:
     * Retrieves OCHLV historical data using Bitfnex RESTv2 API.
@@ -22,18 +23,24 @@ Live Dash graphs of TA indicators on cryptocurrencies.
     * Each indicator is computed and updated within it's own individual process. Each process is run in parallel.
     * Indicators are updated until the latest OCHLV timestamp, which is queried every few seconds.
 
+![alt text](img/example_bb.png?raw=true "Bollinger Bands plot example")
+
+*Predictor labels algorithm flowchart:
+![alt text](img/predictor_labels_flowchart.png?raw=true "Predictor labels algorithm flowchart")
+
+
 ## Getting Started
 ```
 pip install -r requirements.txt
 ```
 
 ## Deployment
-Use update_db.py to create/update indicator databases
+Use update_db.py to create and/or update indicator databases:
 ```
 python3 update_db.py
 ```
 
-Use main_dash.py to run the dashboard on local server
+Use main_dash.py to run the dashboard on local server:
 ```
 python3 main_dash.py
 ```
